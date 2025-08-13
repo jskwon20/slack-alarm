@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars.json # 민감한 정보가 포함될 수 있는 tfvars 파일 (선택 사항)
+
+# Local .ssh keys
+*.pem
+*.key
+
+# Logs
+*.log
+
+jskwon-test-key
+jskwon-test-key.pub
+jskwon-test-key.pem
